@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		96D8CA9825E0D99300480296 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8CA9725E0D99300480296 /* AppDelegate.m */; };
-		96D8CA9B25E0D99300480296 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8CA9A25E0D99300480296 /* SceneDelegate.m */; };
 		96D8CA9E25E0D99300480296 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8CA9D25E0D99300480296 /* ViewController.m */; };
 		96D8CAA125E0D99300480296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D8CA9F25E0D99300480296 /* Main.storyboard */; };
 		96D8CAA325E0D99600480296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D8CAA225E0D99600480296 /* Assets.xcassets */; };
@@ -16,6 +15,13 @@
 		96D8CAA925E0D99600480296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8CAA825E0D99600480296 /* main.m */; };
 		96D8CAB325E0D99600480296 /* AOPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8CAB225E0D99600480296 /* AOPDemoTests.m */; };
 		96D8CABE25E0D99600480296 /* AOPDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8CABD25E0D99600480296 /* AOPDemoUITests.m */; };
+		96D8CAD825E0EBF300480296 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8CAD725E0EBF300480296 /* Person.m */; };
+		96D8CADE25E0F56900480296 /* DataCubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8CADD25E0F56900480296 /* DataCubModel.m */; };
+		96D8CAE425E0F88600480296 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8CAE325E0F88600480296 /* BaseViewController.m */; };
+		96D8CAF025E0FB6700480296 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8CAEF25E0FB6700480296 /* AViewController.m */; };
+		96D8CAF725E0FC6C00480296 /* DataTrackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8CAF625E0FC6C00480296 /* DataTrackManager.m */; };
+		96D8CAFD25E1013100480296 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D8CAFC25E1013100480296 /* BViewController.m */; };
+		AD9DC9D6B35EC137334CFDF1 /* libPods-AOPDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F36D7F0D5E02BCC2DB3AF183 /* libPods-AOPDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36D7CF8E2A430F7E823E7953 /* Pods-AOPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOPDemo.debug.xcconfig"; path = "Target Support Files/Pods-AOPDemo/Pods-AOPDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		96D8CA9325E0D99300480296 /* AOPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D8CA9625E0D99300480296 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96D8CA9725E0D99300480296 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		96D8CA9925E0D99300480296 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		96D8CA9A25E0D99300480296 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		96D8CA9C25E0D99300480296 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		96D8CA9D25E0D99300480296 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		96D8CAA025E0D99300480296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +59,20 @@
 		96D8CAB925E0D99600480296 /* AOPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AOPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D8CABD25E0D99600480296 /* AOPDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOPDemoUITests.m; sourceTree = "<group>"; };
 		96D8CABF25E0D99600480296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D8CAD625E0EBF300480296 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		96D8CAD725E0EBF300480296 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		96D8CADC25E0F56900480296 /* DataCubModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataCubModel.h; sourceTree = "<group>"; };
+		96D8CADD25E0F56900480296 /* DataCubModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataCubModel.m; sourceTree = "<group>"; };
+		96D8CAE225E0F88600480296 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		96D8CAE325E0F88600480296 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		96D8CAEE25E0FB6700480296 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		96D8CAEF25E0FB6700480296 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		96D8CAF525E0FC6C00480296 /* DataTrackManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataTrackManager.h; sourceTree = "<group>"; };
+		96D8CAF625E0FC6C00480296 /* DataTrackManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataTrackManager.m; sourceTree = "<group>"; };
+		96D8CAFB25E1013100480296 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		96D8CAFC25E1013100480296 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		B9AEC4B30FE9630892E3E1C8 /* Pods-AOPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AOPDemo.release.xcconfig"; path = "Target Support Files/Pods-AOPDemo/Pods-AOPDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F36D7F0D5E02BCC2DB3AF183 /* libPods-AOPDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AOPDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD9DC9D6B35EC137334CFDF1 /* libPods-AOPDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		248CEEADE2C087FCE05CDCF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36D7CF8E2A430F7E823E7953 /* Pods-AOPDemo.debug.xcconfig */,
+				B9AEC4B30FE9630892E3E1C8 /* Pods-AOPDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		96D8CA8A25E0D99300480296 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +117,8 @@
 				96D8CAB125E0D99600480296 /* AOPDemoTests */,
 				96D8CABC25E0D99600480296 /* AOPDemoUITests */,
 				96D8CA9425E0D99300480296 /* Products */,
+				248CEEADE2C087FCE05CDCF6 /* Pods */,
+				EA72EE219E8C9A64A776D763 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +135,19 @@
 		96D8CA9525E0D99300480296 /* AOPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				96D8CAF425E0FC5700480296 /* DataTrackManager */,
 				96D8CA9625E0D99300480296 /* AppDelegate.h */,
 				96D8CA9725E0D99300480296 /* AppDelegate.m */,
-				96D8CA9925E0D99300480296 /* SceneDelegate.h */,
-				96D8CA9A25E0D99300480296 /* SceneDelegate.m */,
+				96D8CAE225E0F88600480296 /* BaseViewController.h */,
+				96D8CAE325E0F88600480296 /* BaseViewController.m */,
 				96D8CA9C25E0D99300480296 /* ViewController.h */,
 				96D8CA9D25E0D99300480296 /* ViewController.m */,
+				96D8CAEE25E0FB6700480296 /* AViewController.h */,
+				96D8CAEF25E0FB6700480296 /* AViewController.m */,
+				96D8CAFB25E1013100480296 /* BViewController.h */,
+				96D8CAFC25E1013100480296 /* BViewController.m */,
+				96D8CAD625E0EBF300480296 /* Person.h */,
+				96D8CAD725E0EBF300480296 /* Person.m */,
 				96D8CA9F25E0D99300480296 /* Main.storyboard */,
 				96D8CAA225E0D99600480296 /* Assets.xcassets */,
 				96D8CAA425E0D99600480296 /* LaunchScreen.storyboard */,
@@ -137,6 +175,25 @@
 			path = AOPDemoUITests;
 			sourceTree = "<group>";
 		};
+		96D8CAF425E0FC5700480296 /* DataTrackManager */ = {
+			isa = PBXGroup;
+			children = (
+				96D8CAF525E0FC6C00480296 /* DataTrackManager.h */,
+				96D8CAF625E0FC6C00480296 /* DataTrackManager.m */,
+				96D8CADC25E0F56900480296 /* DataCubModel.h */,
+				96D8CADD25E0F56900480296 /* DataCubModel.m */,
+			);
+			path = DataTrackManager;
+			sourceTree = "<group>";
+		};
+		EA72EE219E8C9A64A776D763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F36D7F0D5E02BCC2DB3AF183 /* libPods-AOPDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96D8CAC225E0D99600480296 /* Build configuration list for PBXNativeTarget "AOPDemo" */;
 			buildPhases = (
+				2C4A54A7528F44C58F934F49 /* [CP] Check Pods Manifest.lock */,
 				96D8CA8F25E0D99300480296 /* Sources */,
 				96D8CA9025E0D99300480296 /* Frameworks */,
 				96D8CA9125E0D99300480296 /* Resources */,
@@ -261,15 +319,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C4A54A7528F44C58F934F49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AOPDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96D8CA8F25E0D99300480296 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D8CADE25E0F56900480296 /* DataCubModel.m in Sources */,
+				96D8CAF025E0FB6700480296 /* AViewController.m in Sources */,
 				96D8CA9E25E0D99300480296 /* ViewController.m in Sources */,
 				96D8CA9825E0D99300480296 /* AppDelegate.m in Sources */,
+				96D8CAFD25E1013100480296 /* BViewController.m in Sources */,
+				96D8CAD825E0EBF300480296 /* Person.m in Sources */,
 				96D8CAA925E0D99600480296 /* main.m in Sources */,
-				96D8CA9B25E0D99300480296 /* SceneDelegate.m in Sources */,
+				96D8CAE425E0F88600480296 /* BaseViewController.m in Sources */,
+				96D8CAF725E0FC6C00480296 /* DataTrackManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +526,7 @@
 		};
 		96D8CAC325E0D99600480296 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D7CF8E2A430F7E823E7953 /* Pods-AOPDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +545,7 @@
 		};
 		96D8CAC425E0D99600480296 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9AEC4B30FE9630892E3E1C8 /* Pods-AOPDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
